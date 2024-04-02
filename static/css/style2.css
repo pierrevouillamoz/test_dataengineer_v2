@@ -1,0 +1,176 @@
+/* test page CSS v2 */
+
+body
+{
+	color:#13518A; /* bleu, couleur du texte */
+	background-color: #FFFFF;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: "Montserrat";
+	opacity: 1;
+}
+
+
+
+header
+{
+	background-color: #FFFFFF;
+}
+
+.python
+{
+	background-color: #e2dddd;
+	color: black;
+	border-width: 5px;
+	border-color: black;
+	padding: 1%;
+}
+
+.sql
+{
+	background-color: black;
+	color: white;
+	border-width: 5px;
+	border-color: black;
+	padding: 1%;
+}
+
+.block, footer
+{	
+	font-size: 1em;
+	text-align: justify;
+	background-color: #FFFFFF;
+	border-width: 5px;
+	border-color: #FFFFFF;
+	border-style: dotted;
+	/*border-radius: 30px;
+	/*box-shadow: 10px 10px 15px 0px #FFFFFF, -10px -10px 15px 0px #FFFFFF ; /*rouge #FD0613*/
+	padding: 1%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	min-width: 800px;
+	width: 70%;
+}
+
+footer
+{
+	text-align: center;
+}
+
+table
+{
+	margin: auto;
+	border-collapse: collapse
+}
+
+td, th
+{
+	border-bottom: 1px solid #13518A;
+	padding-left : 6px;
+	padding-right: 6px;
+	text-align: center;
+}
+	
+/* A utiliser dans balises avec l'attribut class */
+
+.h_container
+{
+	justify-content: center;
+	/*align-content: stretch; */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+
+figure {
+    border: thin #13518A solid;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 5px;
+    display: flex;
+    flex-flow: column;
+    max-width: 460px;
+	
+    
+}
+
+figcaption {
+    background-color: #FFFFFF;
+    font: italic smaller;
+    padding: 3px;
+    text-align: center;
+}
+
+
+.center
+{
+	text-align: center;
+	color: #13518A;
+	
+}
+	
+.souligne
+{
+    text-decoration: underline;
+}
+.barre
+{
+    text-decoration: line-through;
+}
+
+
+.small
+{
+	max-width: 20%;
+	padding: 2%;
+}
+
+.large
+{
+	max-width: 60%;
+	padding: 2%;
+}
+
+.small1
+{
+	max-width: 20%;
+	
+}
+
+.large1
+{
+	max-width: 60%;
+	
+}
+.header_flex
+{
+	padding: 1%;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+/* A utiliser dans la balises avec l'attribut id */
+#name {}
+
+/* Concernant les liens */
+a
+{
+	text-decoration: bold;
+	color:#13518A;
+}
+
+a:hover
+{
+	text-decoration: line;
+}
+
+a:visited
+{
+	color:#13518A;
+}

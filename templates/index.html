@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="static/css/style2.css" />
+		<title> Test data engineer </title>
+	</head>
+	
+	<body>
+
+		<header class="header_flex">
+			<div class="large1">
+				<h1>Test technique pour le poste de data engineer Python à la DGALN</h1>
+			</div>
+			
+			<div class="small1">
+				<a href="{{ url_for('index') }}">
+				<img src="static/images/maison.png"/>
+				</a>
+			</div>
+		</header>
+		
+		<hr/>
+	
+		<div class="block">
+			<h1>Analyse des arrêtés sécheresses en France métropolitaine</h1>
+			<br/>
+			
+			<p>
+			
+			</p>
+			
+			<p>
+				<!-- Bouton pour récupérer les données -->
+				<form action="/recuperation_nettoyage" method="POST">
+					<button type="submit">Lancer le traitement des données</button>
+				</form>
+				<!-- Formulaire pour entrer la date -->
+				<form action="/graph" method="POST">
+					<label for="date">Entrez une date au format AAAA-MM-JJ :</label>
+					<br/>
+					<input type="text" id="date" name="date">
+					<br/>
+				<button type="submit">Visualiser la page du tableau de bord</button>
+				</form>
+			</p>
+			
+			<hr/>
+		
+		</div>
+		
+		<footer>
+		</footer>
+		
+	</body>
+</html>

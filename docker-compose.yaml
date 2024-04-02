@@ -1,0 +1,17 @@
+version: "3"
+services:
+  redis:
+    image: redis
+    volumes:
+        - db_data:/var/lib/redis
+    ports:
+      - 6379:6379
+  app:
+    image: test_data
+    ports:
+      - 5000:5000
+    depends_on:
+      - redis
+
+volumes:
+    db_data: {}

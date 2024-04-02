@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="static/css/style2.css" />
+		<title> Test data engineer </title>
+	</head>
+	
+	<body>
+
+		<header class="header_flex">
+			<div class="large1">
+				<h1>Test technique pour le poste de data engineer Python à la DGALN</h1>
+			</div>
+			
+			<div class="small1">
+				<a href="{{ url_for('index') }}">
+				<img src="static/images/maison.png"/>
+				</a>
+			</div>
+		</header>
+		
+		<hr/>
+	
+		<div class="block">
+			<h1>Analyse des arrêtés sécheresses en France métropolitaine</h1>
+			<br/>
+			
+			<p>
+			Vous avez choisi la date du {{date}} pour les visualisations.
+			</p>
+		
+			<div class="h_container">
+		
+		
+			<figure>		
+			<a href="graph_bar.png" >
+			<img src="graph_bar.png" alt="Diagramme en bar" width=450px/>
+			</a>
+			<figcaption>
+			Nombre de départements par niveau d'alerte au {{date}}.	
+			</figcaption>
+			</figure>
+			
+			<figure>			
+			<a href="carte.png" >
+			<img src="carte.png" alt="carte des départements" width=450px/>
+			</a>
+			<figcaption>
+			Carte des départements par niveau d'alerte au {{date}}.
+			</figcaption>
+			</figure>
+			
+			<figure>		
+			<a href="graph_surface.png" >
+			<img src="graph_surface.png" alt="Surfaces concernées" width=450px/>
+			</a>
+			<figcaption>
+			Surfaces des eaux superficiels concernées par un arrêté au cours du temps.	
+			</figcaption>
+			</figure>
+			
+			<figure>			
+			<a href="graph_donnees_mois.png" >
+			<img src="graph_donnees_mois.png" alt="Nombre moyen arretés" width=450px/>
+			</a>
+			<figcaption>
+			Nombre moyen d'arrêtés de restriction par mois
+			</figcaption>
+			</figure>
+			
+			
+			</div>
+		
+		</div>
+		<hr/>
+		<footer>
+		
+		</footer>
+		
+	</body>
+</html>
